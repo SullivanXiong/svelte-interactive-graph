@@ -47,12 +47,17 @@
       transform-origin: var(--backgroundX) var(--backgroundY);
     }
     to {
-      /* transform: translate(
-          calc(-1 * var(--xDisplacement)),
-          calc(-1 * var(--yDisplacement)
-        )
-        scale(1); */
       transform: scale(1);
+    }
+  }
+
+  @keyframes zoomOut {
+    from {
+      transform: scale(2);
+      transform-origin: var(--backgroundX) var(--backgroundY);
+    }
+    to {
+      transform: scale(0);
     }
   }
 

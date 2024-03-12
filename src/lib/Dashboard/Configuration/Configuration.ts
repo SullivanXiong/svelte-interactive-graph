@@ -1,11 +1,11 @@
-enum Theme {
+const enum Theme {
   Light = "LIGHT",
   Dark = "DARK",
   Custom = "CUSTOM",
   Default = "DEFAULT",
 }
 
-enum Layout {
+const enum Layout {
   Grid = "GRID",
   List = "LIST",
   Column = "COLUMN",

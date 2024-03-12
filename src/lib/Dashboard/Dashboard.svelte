@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { Dashboard } from "./Dashboard";
-  import { type Node } from "./Node/Node";
-  import { type Edge } from "./Edge/Edge";
+  import { Dashboard } from "$lib/Dashboard/Dashboard";
+  import { type Node } from "$lib/Dashboard/Node/Node";
+  import { type Edge } from "$lib/Dashboard/Edge/Edge";
   import {
     Theme,
-    type Configuration,
     Layout,
-  } from "./Configuration/Configuration";
+    type Configuration,
+  } from "$lib/Dashboard/Configuration/Configuration";
   import { onMount } from "svelte";
   import NodeComponent from "./Node/NodeComponent.svelte";
   import { zoom } from "$lib/zoom";
